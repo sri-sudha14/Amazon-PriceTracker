@@ -24,8 +24,8 @@ title = soup.find(id="productTitle").get_text().strip()
 print(title)
 
 BUY_PRICE = 200
-YOUR_EMAIL = "srisudhavyas@gmail.com"
-YOUR_PASSWORD = "mcyazrvakuwqdmti"
+YOUR_EMAIL = ""
+YOUR_PASSWORD = ""
 if price_as_float < BUY_PRICE:
     message = f"{title} is now {price}"
 
